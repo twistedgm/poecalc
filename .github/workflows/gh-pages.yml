@@ -1,4 +1,8 @@
-name: Deploy to GitHub Pages
+
+# Give the workflow explicit permissions to write repository contents and pages
+permissions:
+  contents: write
+  pages: write
 
 on:
   push:
